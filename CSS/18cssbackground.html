@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>css background</title>
+         <style>
+            body{
+                margin-bottom: 1500px;
+            }
+            #bg-background-color{
+                background-color: purple;
+            }
+            #bg-image{
+                box-shadow: 0 0 10px black;
+                width: 200px;
+                height: 150px;
+                text-align: center;
+                background-image: url(image3.jpeg);
+            }
+            #bg-repeat{
+                box-shadow: 0 0 10px black;
+                height: 800px;
+                width: 900px;
+                background-image: url(image4.jpeg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+            }
+            #bg-size{
+                box-shadow: 0 0 10px black;
+                width: 500px;
+                height: 600px;
+                text-align: center;
+                background-image: url(image2.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            #bg-gradient{
+                box-shadow: 0 0 10px black;
+                height: 500px;
+                width: 500px;
+                background: linear-gradient(135deg,rgb(255,230,241),rgb(163,241,242),rgb(255,230,241));
+            }
+          </style>
+    </head>
+    <body>
+        <h2>background background-color</h2>
+        <div id="bg-background-color">
+            <h2>I am with purple background-color background</h2>
+        </div>
+        <h2>background image</h2>
+        <div id="bg-image">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, nobis!</p>
+        </div>
+        <h2>background repeat</h2>
+        <div id="bg-repeat">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <h2>background image</h2>
+        <div id="bg-size">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <h2>background gradient</h2>
+        <div id="bg-gradient"></div>
+    </body>
+</html>
