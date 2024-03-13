@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BOXSIZINGSTATIC</title>
+        <style>
+            body{
+                margin-bottom: 1500px;
+            }
+            .container{
+                height: 500px;
+                width: 500px;
+                background-color: lightcoral;
+                position: relative;
+            }
+            #div1{
+                height: 500px;
+                width: 100px;
+                box-shadow: 0 0 10px lavender;
+                position: absolute;
+                top: 20px;
+                left: 100px;
+            }
+            #div2{
+                height: 100px;
+                width: 100px;
+                box-shadow: 0 0 10px blueviolet;
+                background-color:red;
+                position: sticky;
+                top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div id="div1"></div>
+            <div id="div2"></div>
+        </div>
+    </body>
+</html>
